@@ -1,0 +1,59 @@
+.bg-container {
+  background-color: white;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container {
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+  padding-left: 20px;
+}
+
+.website-logo {
+  padding-top: 15px;
+  width: 150px;
+  height: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: #334155;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.description {
+  color: #475569;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #3b82f6;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 130px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.meetup-img {
+  width: 50%;
+  margin-top: 10px;
+}
